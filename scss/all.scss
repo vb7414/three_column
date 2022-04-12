@@ -8,13 +8,15 @@
         align-items: center;
         margin-bottom: 10px;
         ul {
-            width: 25%;
             margin: 0 5% 0 0;
             padding-left: 0;
             display: flex;
             justify-content: space-between;
             color: white;
             list-style: none;
+            li {
+                margin-left: 15px;
+            }
         }
         .logo {
             margin-left: 5%;
@@ -41,6 +43,8 @@
             background: pink;
             padding: 10px;
             max-width: 60%;
+            margin-left: 10px;
+            margin-right: 10px;
         }
         .main__rightSide {
             background: blue;

@@ -18,7 +18,6 @@
 }
 
 .wrap .header ul {
-  width: 25%;
   margin: 0 5% 0 0;
   padding-left: 0;
   display: -webkit-box;
@@ -29,6 +28,10 @@
           justify-content: space-between;
   color: white;
   list-style: none;
+}
+
+.wrap .header ul li {
+  margin-left: 15px;
 }
 
 .wrap .header .logo {
@@ -70,6 +73,8 @@
   background: pink;
   padding: 10px;
   max-width: 60%;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .wrap .main .main__rightSide {
