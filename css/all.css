@@ -1,0 +1,86 @@
+.wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wrap .header {
+  background: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+.wrap .header ul {
+  width: 25%;
+  margin: 0 5% 0 0;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+  list-style: none;
+}
+
+.wrap .header .logo {
+  margin-left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrap .header .logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.wrap .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.wrap .main .main__leftSide {
+  background: black;
+  color: white;
+  padding: 10px;
+  max-width: 20%;
+}
+
+.wrap .main .main__content {
+  background: pink;
+  padding: 10px;
+  max-width: 60%;
+}
+
+.wrap .main .main__rightSide {
+  background: blue;
+  padding: 10px;
+  color: white;
+  max-width: 10%;
+}
+
+.wrap .footer {
+  background: gray;
+  margin-top: 10px;
+  height: 40px;
+}
